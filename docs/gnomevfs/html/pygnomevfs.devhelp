@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<book xmlns="http://www.devhelp.net/book" title="Python gnomevfs Reference Manual" link="index.html" author="David Trowbridge" name="pygnomevfs">
+  <chapters>
+    <sub name="The gnomevfs class reference" link="gnomevfs-class-reference.html">
+      <sub name="gnomevfs.Context" link="class-gnomevfs-context.html"/>
+      <sub name="gnomevfs.DirectoryHandle" link="class-gnomevfs-directoryhandle.html"/>
+      <sub name="gnomevfs.Drive" link="class-gnomevfs-drive.html"/>
+      <sub name="gnomevfs.FileInfo" link="class-gnomevfs-fileinfo.html"/>
+      <sub name="gnomevfs.Handle" link="class-gnomevfs-handle.html"/>
+      <sub name="gnomevfs.URI" link="class-gnomevfs-uri.html"/>
+      <sub name="gnomevfs.Volume" link="class-gnomevfs-volume.html"/>
+      <sub name="gnomevfs Functions" link="gnomevfs-functions.html"/>
+      <sub name="gnomevfs Constants" link="gnomevfs-constants.html"/>
+    </sub>
+  </chapters>
+  <functions>
+    <function name="" link="class-gnomevfs-directoryhandle.html#id448809"/>
+    <function name="" link="class-gnomevfs-handle.html#id451653"/>
+    <function name="" link="class-gnomevfs-uri.html#id482770"/>
+    <function name="gnomevfs.Context.get_cancellation" link="class-gnomevfs-context.html#method-gnomevfs-context--get_cancellation"/>
+    <function name="gnomevfs.Context.check_cancellation" link="class-gnomevfs-context.html#method-gnomevfs-context--check_cancellation"/>
+    <function name="gnomevfs.Context.cancel" link="class-gnomevfs-context.html#method-gnomevfs-context--cancel"/>
+    <function name="" link="class-gnomevfs-directoryhandle.html#constructor-gnomevfs-directoryhandle"/>
+    <function name="gnomevfs.DirectoryHandle.next" link="class-gnomevfs-directoryhandle.html#method-gnomevfs-directoryhandle--next"/>
+    <function name="gnomevfs.Drive.get_id" link="class-gnomevfs-drive.html#method-gnomevfs-drive--get_id"/>
+    <function name="gnomevfs.Drive.get_device_type" link="class-gnomevfs-drive.html#method-gnomevfs-drive--get_device_type"/>
+    <function name="gnomevfs.Drive.get_mounted_volumes" link="class-gnomevfs-drive.html#method-gnomevfs-drive--get_mounted_volumes"/>
+    <function name="gnomevfs.Drive.get_device_path" link="class-gnomevfs-drive.html#method-gnomevfs-drive--get_device_path"/>
+    <function name="gnomevfs.Drive.get_activation_uri" link="class-gnomevfs-drive.html#method-gnomevfs-drive--get_activation_uri"/>
+    <function name="gnomevfs.Drive.get_display_name" link="class-gnomevfs-drive.html#method-gnomevfs-drive--get_display_name"/>
+    <function name="gnomevfs.Drive.get_icon" link="class-gnomevfs-drive.html#method-gnomevfs-drive--get_icon"/>
+    <function name="gnomevfs.Drive.get_hal_udi" link="class-gnomevfs-drive.html#method-gnomevfs-drive--get_hal_udi"/>
+    <function name="gnomevfs.Drive.is_user_visible" link="class-gnomevfs-drive.html#method-gnomevfs-drive--is_user_visible"/>
+    <function name="gnomevfs.Drive.is_connected" link="class-gnomevfs-drive.html#method-gnomevfs-drive--is_connected"/>
+    <function name="gnomevfs.Drive.is_mounted" link="class-gnomevfs-drive.html#method-gnomevfs-drive--is_mounted"/>
+    <function name="gnomevfs.Drive.mount" link="class-gnomevfs-drive.html#method-gnomevfs-drive--mount"/>
+    <function name="gnomevfs.Drive.unmount" link="class-gnomevfs-drive.html#method-gnomevfs-drive--unmount"/>
+    <function name="gnomevfs.Drive.eject" link="class-gnomevfs-drive.html#method-gnomevfs-drive--eject"/>
+    <function name="" link="class-gnomevfs-handle.html#constructor-gnomevfs-handle"/>
+    <function name="gnomevfs.Handle.close" link="class-gnomevfs-handle.html#method-gnomevfs-handle--close"/>
+    <function name="gnomevfs.Handle.get_file_info" link="class-gnomevfs-handle.html#method-gnomevfs-handle--get_file_info"/>
+    <function name="gnomevfs.Handle.read" link="class-gnomevfs-handle.html#method-gnomevfs-handle--read"/>
+    <function name="gnomevfs.Handle.seek" link="class-gnomevfs-handle.html#method-gnomevfs-handle--seek"/>
+    <function name="gnomevfs.Handle.tell" link="class-gnomevfs-handle.html#method-gnomevfs-handle--tell"/>
+    <function name="gnomevfs.Handle.truncate" link="class-gnomevfs-handle.html#method-gnomevfs-handle--truncate"/>
+    <function name="gnomevfs.Handle.write" link="class-gnomevfs-handle.html#method-gnomevfs-handle--write"/>
+    <function name="" link="class-gnomevfs-uri.html#constructor-gnomevfs-uri"/>
+    <function name="gnomevfs.URI.append_file_name" link="class-gnomevfs-uri.html#method-gnomevfs-uri--append_file_name"/>
+    <function name="gnomevfs.URI.append_path" link="class-gnomevfs-uri.html#method-gnomevfs-uri--append_path"/>
+    <function name="gnomevfs.URI.append_string" link="class-gnomevfs-uri.html#method-gnomevfs-uri--append_string"/>
+    <function name="gnomevfs.URI.copy" link="class-gnomevfs-uri.html#method-gnomevfs-uri--copy"/>
+    <function name="gnomevfs.URI.is_parent" link="class-gnomevfs-uri.html#method-gnomevfs-uri--is_parent"/>
+    <function name="gnomevfs.URI.resolve_relative" link="class-gnomevfs-uri.html#method-gnomevfs-uri--resolve_relative"/>
+    <function name="gnomevfs.Volume.get_activation_uri" link="class-gnomevfs-volume.html#method-gnomevfs-volume--get_activation_uri"/>
+    <function name="gnomevfs.Volume.get_device_path" link="class-gnomevfs-volume.html#method-gnomevfs-volume--get_device_path"/>
+    <function name="gnomevfs.Volume.get_device_type" link="class-gnomevfs-volume.html#method-gnomevfs-volume--get_device_type"/>
+    <function name="gnomevfs.Volume.get_display_name" link="class-gnomevfs-volume.html#method-gnomevfs-volume--get_display_name"/>
+    <function name="gnomevfs.Volume.get_drive" link="class-gnomevfs-volume.html#method-gnomevfs-volume--get_drive"/>
+    <function name="gnomevfs.Volume.get_filesystem_type" link="class-gnomevfs-volume.html#method-gnomevfs-volume--get_filesystem_type"/>
+    <function name="gnomevfs.Volume.get_hal_udi" link="class-gnomevfs-volume.html#method-gnomevfs-volume--get_hal_udi"/>
+    <function name="gnomevfs.Volume.get_icon" link="class-gnomevfs-volume.html#method-gnomevfs-volume--get_icon"/>
+    <function name="gnomevfs.Volume.get_id" link="class-gnomevfs-volume.html#method-gnomevfs-volume--get_id"/>
+    <function name="gnomevfs.Volume.get_volume_type" link="class-gnomevfs-volume.html#method-gnomevfs-volume--get_volume_type"/>
+    <function name="gnomevfs.Volume.handles_trash" link="class-gnomevfs-volume.html#method-gnomevfs-volume--handles_trash"/>
+    <function name="gnomevfs.Volume.is_read_only" link="class-gnomevfs-volume.html#method-gnomevfs-volume--is_read_only"/>
+    <function name="gnomevfs.Volume.is_mounted" link="class-gnomevfs-volume.html#method-gnomevfs-volume--is_mounted"/>
+    <function name="gnomevfs.Volume.is_user_visible" link="class-gnomevfs-volume.html#method-gnomevfs-volume--is_user_visible"/>
+    <function name="gnomevfs.Volume.eject" link="class-gnomevfs-volume.html#method-gnomevfs-volume--eject"/>
+    <function name="gnomevfs.Volume.unmount" link="class-gnomevfs-volume.html#method-gnomevfs-volume--unmount"/>
+    <function name="gnomevfs.create" link="gnomevfs-functions.html#function-gnomevfs--create"/>
+    <function name="gnomevfs.get_file_info" link="gnomevfs-functions.html#function-gnomevfs--get_file_info"/>
+    <function name="gnomevfs.set_file_info" link="gnomevfs-functions.html#function-gnomevfs--set_file_info"/>
+    <function name="gnomevfs.truncate" link="gnomevfs-functions.html#function-gnomevfs--truncate"/>
+    <function name="gnomevfs.make_directory" link="gnomevfs-functions.html#function-gnomevfs--make_directory"/>
+    <function name="gnomevfs.remove_directory" link="gnomevfs-functions.html#function-gnomevfs--remove_directory"/>
+    <function name="gnomevfs.unlink" link="gnomevfs-functions.html#function-gnomevfs--unlink"/>
+    <function name="gnomevfs.exists" link="gnomevfs-functions.html#function-gnomevfs--exists"/>
+    <function name="gnomevfs.format_file_size_for_display" link="gnomevfs-functions.html#function-gnomevfs--format_file_size_for_display"/>
+    <function name="gnomevfs.get_mime_type" link="gnomevfs-functions.html#function-gnomevfs--get_mime_type"/>
+    <function name="gnomevfs.get_mime_type_for_data" link="gnomevfs-functions.html#function-gnomevfs--get_mime_type_for_data"/>
+    <function name="gnomevfs.mime_get_icon" link="gnomevfs-functions.html#function-gnomevfs--mime_get_icon"/>
+    <function name="gnomevfs.mime_get_description" link="gnomevfs-functions.html#function-gnomevfs--mime_get_description"/>
+    <function name="gnomevfs.mime_can_be_executable" link="gnomevfs-functions.html#function-gnomevfs--mime_can_be_executable"/>
+    <function name="gnomevfs.monitor_add" link="gnomevfs-functions.html#function-gnomevfs--monitor_add"/>
+    <function name="gnomevfs.monitor_cancel" link="gnomevfs-functions.html#function-gnomevfs--monitor_cancel"/>
+    <function name="gnomevfs.read_entire_file" link="gnomevfs-functions.html#function-gnomevfs--read_entire_file"/>
+    <function name="gnomevfs.mime_get_default_application" link="gnomevfs-functions.html#function-gnomevfs--mime_get_default_application"/>
+    <function name="gnomevfs Directory Visit Options" link="gnomevfs-constants.html#gnomevfs-constants-directory-visit"/>
+    <function name="gnomevfs File Flags" link="gnomevfs-constants.html#gnomevfs-constants-file-flags"/>
+    <function name="gnomevfs FileInfo Fields" link="gnomevfs-constants.html#gnomevfs-constants-fileinfo-fields"/>
+    <function name="gnomevfs File Permissions" link="gnomevfs-constants.html#gnomevfs-constants-file-permissions"/>
+    <function name="gnomevfs FileInfo Options" link="gnomevfs-constants.html#gnomevfs-constants-fileinfo-options"/>
+    <function name="gnomevfs FileInfo Set Mask" link="gnomevfs-constants.html#gnomevfs-constants-fileinfo-setmask"/>
+    <function name="gnomevfs Open Mode Constants" link="gnomevfs-constants.html#gnomevfs-constants-openmode"/>
+    <function name="gnomevfs Seek Constants" link="gnomevfs-constants.html#gnomevfs-constants-seekmode"/>
+    <function name="gnomevfs Monitor Type Constants" link="gnomevfs-constants.html#gnomevfs-constants-monitortype"/>
+    <function name="gnomevfs Monitor Events" link="gnomevfs-constants.html#gnomevfs-constants-monitorevents"/>
+  </functions>
+</book>

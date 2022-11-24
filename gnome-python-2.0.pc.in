@@ -1,0 +1,13 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+includedir=@includedir@
+datarootdir=@datarootdir@
+datadir=@datadir@
+
+defsdir=${datadir}/pygtk/2.0/defs
+argtypesdir=${datadir}/pygtk/2.0/argtypes
+
+Name: GNOME-python
+Description: Python bindings for GNOME libraries
+Version: @VERSION@
+Cflags: -I${includedir}/gnome-python-2.0

@@ -1,0 +1,22 @@
+From: "Dr. Tobias Quathamer" <toddy@debian.org>
+Date: Sun, 27 Nov 2016 17:37:05 +0100
+Subject: Remove GNOME_COMMON_INIT
+
+See https://bugzilla.gnome.org/show_bug.cgi?id=735416#c9
+---
+ configure.ac | 2 --
+ 1 file changed, 2 deletions(-)
+
+diff --git a/configure.ac b/configure.ac
+index c643741..85e10b6 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -54,8 +54,6 @@ AC_DEFUN([AC_ARG_BINDING],
+ 			 fi])
+ ])
+ 
+-GNOME_COMMON_INIT
+-
+ dnl put the ACLOCAL flags in the makefile
+ ACLOCAL="$ACLOCAL $ACLOCAL_FLAGS"
+ 
