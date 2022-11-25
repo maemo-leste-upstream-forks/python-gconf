@@ -54,8 +54,6 @@ AC_DEFUN([AC_ARG_BINDING],
 			 fi])
 ])
 
-GNOME_COMMON_INIT
-
 dnl put the ACLOCAL flags in the makefile
 ACLOCAL="$ACLOCAL $ACLOCAL_FLAGS"
 
@@ -159,8 +157,8 @@ AC_ARG_ENABLE([gtk-doc],
 AM_CONDITIONAL(BUILD_DOCS, [test "$enable_gtk_doc" = "yes"])
 
 dnl default bindings to build:
-default_bindings_on="gnome gnomeui gnomecanvas gnomevfs gnomevfsbonobo pyvfsmodule gconf bonobo_activation bonobo bonoboui"
-default_bindings_off=""
+default_bindings_on="gconf"
+default_bindings_off="gnome gnomeui gnomecanvas gnomevfs gnomevfsbonobo pyvfsmodule bonobo_activation bonobo bonoboui"
 default_bindings_all="$default_bindings_on $default_bindings_off"
 
 AC_ARG_ENABLE([allbindings],
