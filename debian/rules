@@ -47,13 +47,10 @@ install-%: install-clean build-%/build-stamp
 	dh_testdir
 	dh_testroot
 	$(MAKE) -C build-$* install DESTDIR=$(CURDIR)/debian/tmp-$*
-	cd debian/tmp-$*/usr/lib/gnome-vfs-2.0/modules && \
-		mv libpythonmethod.so libpythonmethod-$*.so
 	dh_install --sourcedir=debian/tmp-$*
 
 install: $(PYVERS:%=install-%)
 	dh_installdirs
-	chmod 755 debian/python-gnome2/usr/share/python/runtime.d/*
 
 clean::
 	dh_testdir
@@ -95,7 +92,7 @@ binary-arch: build install
 	dh_fixperms -s
 	dh_python2 -a
 	dh_installdeb -s
-	dh_shlibdeps -s -Xusr/lib/gnome-vfs-2.0/modules
+	dh_shlibdeps -s
 	dh_gencontrol -s
 	dh_md5sums -s
 	dh_builddeb -s
