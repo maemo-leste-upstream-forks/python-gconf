@@ -16,7 +16,8 @@ Build-Depends: debhelper (>= 8),
                libgtk2.0-dev (>= 2.6.0),
                libgconf2-dev (>= 2.11.1),
                gtk-doc-tools,
-               gnome-pkg-tools
+               gnome-pkg-tools,
+               dh-python
 Standards-Version: 3.9.2
 X-Python-Version: >= 2.5
 Homepage: http://www.pygtk.org/
